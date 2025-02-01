@@ -2,17 +2,17 @@
 
 **Overview**
 
-    This project is an advanced IoT-based home automation system that leverages the ESP32-CAM module, Firebase for real-time database management, and a custom mobile application built using MIT App Inventor. The system allows users to remotely control home appliances, monitor real-time camera feeds, and enhance home security with motion detection and keypad access.
+This project is an advanced IoT-based home automation system that leverages the ESP32-CAM module, Firebase for real-time database management, and a custom mobile application built using MIT App Inventor. The system allows users to remotely control home appliances, monitor real-time camera feeds, and enhance home security with motion detection and keypad access.
 
 **Components**
 
-    1.ESP32-CAM: A microcontroller with an integrated camera module used for streaming video, capturing images, and integrating with the home automation system.
-    2.PCF8575 I/O Expander: Extends the GPIO capabilities of the ESP32-CAM for controlling multiple relays.
-    3.Firebase: Real-time database for managing the state of appliances and storing camera data.
-    4.MIT App Inventor: A visual programming environment used to build the mobile app for user interaction with the system.
-    5.Keypad and LCD: Used for secure entry with a password-protected system and for displaying messages.
-    6.Relays: For switching home appliances on and off.
-    7.PIR Motion Sensor: Detects motion for security purposes.
+ 1.ESP32-CAM: A microcontroller with an integrated camera module used for streaming video, capturing images, and integrating with the home automation system.
+ 2.PCF8575 I/O Expander: Extends the GPIO capabilities of the ESP32-CAM for controlling multiple relays.
+ 3.Firebase: Real-time database for managing the state of appliances and storing camera data.
+ 4.MIT App Inventor: A visual programming environment used to build the mobile app for user interaction with the system.
+ 5.Keypad and LCD: Used for secure entry with a password-protected system and for displaying messages.
+ 6.Relays: For switching home appliances on and off.
+ 7.PIR Motion Sensor: Detects motion for security purposes.
 
 **Features**
 1.Remote Control of Appliances:
