@@ -15,6 +15,7 @@ This project is an advanced IoT-based home automation system that leverages the 
  7.PIR Motion Sensor: Detects motion for security purposes.
 
 **Features**
+
 1.Remote Control of Appliances:
 
 * Users can turn on/off appliances via the mobile app.
@@ -36,6 +37,7 @@ This project is an advanced IoT-based home automation system that leverages the 
 * Any changes made via the mobile app are immediately reflected in the system.
 
 **System Architecture**
+
 1.ESP32-CAM Initialization:
 
 * Initializes WiFi and connects to Firebase.
@@ -58,6 +60,7 @@ This project is an advanced IoT-based home automation system that leverages the 
 * Correct password input unlocks the system, while incorrect input triggers an alert.
 
 **Implementation Details**
+
 1.ESP32-CAM Setup:
 
 * Configures the camera, initializes WiFi, and connects to Firebase.
@@ -84,6 +87,7 @@ This project is an advanced IoT-based home automation system that leverages the 
 * Callback functions handle changes in the database and update the system accordingly.
 
 **Mobile App (MIT App Inventor) Functionality**
+
   1.User Interface:
   
   * Buttons to control each relay.
@@ -96,4 +100,5 @@ This project is an advanced IoT-based home automation system that leverages the 
   * Real-time synchronization ensures that the app and the system are always in sync.
   
 **Conclusion**
+
 This IoT-based home automation system provides a robust and flexible solution for remote home control and monitoring. By integrating the ESP32-CAM with Firebase and a custom-built mobile app, users can enhance their home security, convenience, and efficiency. The system's real-time capabilities and security features make it a valuable addition to any smart home setup.
