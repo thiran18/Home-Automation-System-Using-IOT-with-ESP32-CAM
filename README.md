@@ -1,8 +1,11 @@
 # Home-Automation-System-Using-IOT-with-ESP32-CAM
+
 **Overview**
+
     This project is an advanced IoT-based home automation system that leverages the ESP32-CAM module, Firebase for real-time database management, and a custom mobile application built using MIT App Inventor. The system allows users to remotely control home appliances, monitor real-time camera feeds, and enhance home security with motion detection and keypad access.
 
 **Components**
+
     1.ESP32-CAM: A microcontroller with an integrated camera module used for streaming video, capturing images, and integrating with the home automation system.
     2.PCF8575 I/O Expander: Extends the GPIO capabilities of the ESP32-CAM for controlling multiple relays.
     3.Firebase: Real-time database for managing the state of appliances and storing camera data.
